@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<types>
+    <settings>
+        <add_resized_images_to_library>0</add_resized_images_to_library>
+        <register_translations_on_import>1</register_translations_on_import>
+        <images_remote>0</images_remote>
+        <images_remote_cache_time>36</images_remote_cache_time>
+        <help_box>by_types</help_box>
+    </settings>
+    <groups>
+        <group>
+            <ID>1508</ID>
+            <post_content></post_content>
+            <post_title>Drivers Info</post_title>
+            <post_excerpt></post_excerpt>
+            <post_type>wp-types-group</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wp_types_group_filters_association>any</_wp_types_group_filters_association>
+                <_wp_types_group_fields>,driver-email,driver-phone,</_wp_types_group_fields>
+                <_wp_types_group_post_types>,driver,</_wp_types_group_post_types>
+                <_wp_types_group_terms>all</_wp_types_group_terms>
+                <_wp_types_group_admin_styles></_wp_types_group_admin_styles>
+                <_wp_types_group_templates>all</_wp_types_group_templates>
+                <_wpcf_conditional_display>a:2:{s:8:&quot;relation&quot;;s:3:&quot;AND&quot;;s:6:&quot;custom&quot;;s:0:&quot;&quot;;}</_wpcf_conditional_display>
+            </meta>
+            <hash>d36a280a9f22d2f8ded5d6d0bc929eba</hash>
+            <checksum>d36a280a9f22d2f8ded5d6d0bc929eba</checksum>
+            <__types_id>drivers-info</__types_id>
+            <__types_title>Drivers Info</__types_title>
+        </group>
+        <group>
+            <ID>1506</ID>
+            <post_content></post_content>
+            <post_title>Restaurant Info</post_title>
+            <post_excerpt></post_excerpt>
+            <post_type>wp-types-group</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wp_types_group_filters_association>any</_wp_types_group_filters_association>
+                <_wp_types_group_fields>,restaurant-email,restaurant-phone,</_wp_types_group_fields>
+                <_wp_types_group_post_types>,restaurant,</_wp_types_group_post_types>
+                <_wp_types_group_terms>all</_wp_types_group_terms>
+                <_wp_types_group_admin_styles></_wp_types_group_admin_styles>
+                <_wp_types_group_templates>all</_wp_types_group_templates>
+                <_wpcf_conditional_display>a:2:{s:8:&quot;relation&quot;;s:3:&quot;AND&quot;;s:6:&quot;custom&quot;;s:0:&quot;&quot;;}</_wpcf_conditional_display>
+            </meta>
+            <hash>acb91b2a078524b9bfc340a699ceedcf</hash>
+            <checksum>acb91b2a078524b9bfc340a699ceedcf</checksum>
+            <__types_id>restaurant-info</__types_id>
+            <__types_title>Restaurant Info</__types_title>
+        </group>
+    </groups>
+    <fields>
+        <field>
+            <id>restaurant-email</id>
+            <slug>restaurant-email</slug>
+            <type>email</type>
+            <name>Restaurant Email</name>
+            <description></description>
+            <data>
+                <repetitive>0</repetitive>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-restaurant-email</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>restaurant-email</__types_id>
+            <__types_title>Restaurant Email</__types_title>
+            <hash>25cbddb778d9be269234ccf2d86df677</hash>
+            <checksum>25cbddb778d9be269234ccf2d86df677</checksum>
+        </field>
+        <field>
+            <id>restaurant-phone</id>
+            <slug>restaurant-phone</slug>
+            <type>phone</type>
+            <name>Restaurant Phone</name>
+            <description></description>
+            <data>
+                <repetitive>0</repetitive>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-restaurant-phone</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>restaurant-phone</__types_id>
+            <__types_title>Restaurant Phone</__types_title>
+            <hash>52c3c49884ae25335499299351700071</hash>
+            <checksum>52c3c49884ae25335499299351700071</checksum>
+        </field>
+        <field>
+            <id>driver-email</id>
+            <slug>driver-email</slug>
+            <type>email</type>
+            <name>Driver-Email</name>
+            <description></description>
+            <data>
+                <repetitive>0</repetitive>
+                <is_new>1</is_new>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-driver-email</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>driver-email</__types_id>
+            <__types_title>Driver-Email</__types_title>
+            <hash>78943da55d8314c0b4f4bad02313fc01</hash>
+            <checksum>78943da55d8314c0b4f4bad02313fc01</checksum>
+        </field>
+        <field>
+            <id>driver-phone</id>
+            <slug>driver-phone</slug>
+            <type>phone</type>
+            <name>Driver Phone</name>
+            <description></description>
+            <data>
+                <repetitive>0</repetitive>
+                <is_new>1</is_new>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-driver-phone</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>driver-phone</__types_id>
+            <__types_title>Driver Phone</__types_title>
+            <hash>1fce5e0ea1f72d4474a19165557174ad</hash>
+            <checksum>1fce5e0ea1f72d4474a19165557174ad</checksum>
+        </field>
+    </fields>
+    <types>
+        <type>
+            <wpcf-post-type>restaurant</wpcf-post-type>
+            <labels>
+                <name>Restaurants</name>
+                <singular_name>Restaurant</singular_name>
+                <add_new>Add New</add_new>
+                <add_new_item>Add New %s</add_new_item>
+                <edit_item>Edit %s</edit_item>
+                <new_item>New %s</new_item>
+                <view_item>View %s</view_item>
+                <search_items>Search %s</search_items>
+                <not_found>No %s found</not_found>
+                <not_found_in_trash>No %s found in Trash</not_found_in_trash>
+                <parent_item_colon>Parent text</parent_item_colon>
+                <all_items>All items</all_items>
+            </labels>
+            <slug>restaurant</slug>
+            <description></description>
+            <public>public</public>
+            <menu_position></menu_position>
+            <menu_icon></menu_icon>
+            <supports>
+                <title>1</title>
+                <revisions>1</revisions>
+            </supports>
+            <rewrite>
+                <enabled>1</enabled>
+                <custom>normal</custom>
+                <slug></slug>
+                <with_front>1</with_front>
+                <feeds>1</feeds>
+                <pages>1</pages>
+            </rewrite>
+            <has_archive>1</has_archive>
+            <show_in_menu>1</show_in_menu>
+            <show_in_menu_page></show_in_menu_page>
+            <show_ui>1</show_ui>
+            <publicly_queryable>1</publicly_queryable>
+            <can_export>1</can_export>
+            <show_in_nav_menus>1</show_in_nav_menus>
+            <query_var_enabled>1</query_var_enabled>
+            <query_var></query_var>
+            <permalink_epmask>EP_PERMALINK</permalink_epmask>
+            <taxonomies>
+                <region>1</region>
+            </taxonomies>
+            <id>restaurant</id>
+            <__types_id>restaurant</__types_id>
+            <__types_title>Restaurants</__types_title>
+            <hash>02e5f47a89f63228a8b15b0964f193be</hash>
+            <checksum>02e5f47a89f63228a8b15b0964f193be</checksum>
+        </type>
+        <type>
+            <labels>
+                <name>Drivers</name>
+                <singular_name>Driver</singular_name>
+                <add_new>Add New</add_new>
+                <add_new_item>Add New %s</add_new_item>
+                <edit_item>Edit %s</edit_item>
+                <new_item>New %s</new_item>
+                <view_item>View %s</view_item>
+                <search_items>Search %s</search_items>
+                <not_found>No %s found</not_found>
+                <not_found_in_trash>No %s found in Trash</not_found_in_trash>
+                <parent_item_colon>Parent text</parent_item_colon>
+                <all_items>All items</all_items>
+            </labels>
+            <slug>driver</slug>
+            <description></description>
+            <public>public</public>
+            <menu_position></menu_position>
+            <menu_icon></menu_icon>
+            <supports>
+                <title>1</title>
+                <revisions>1</revisions>
+            </supports>
+            <rewrite>
+                <enabled>1</enabled>
+                <custom>normal</custom>
+                <slug></slug>
+                <with_front>1</with_front>
+                <feeds>1</feeds>
+                <pages>1</pages>
+            </rewrite>
+            <has_archive>1</has_archive>
+            <show_in_menu>1</show_in_menu>
+            <show_in_menu_page></show_in_menu_page>
+            <show_ui>1</show_ui>
+            <publicly_queryable>1</publicly_queryable>
+            <can_export>1</can_export>
+            <show_in_nav_menus>1</show_in_nav_menus>
+            <query_var_enabled>1</query_var_enabled>
+            <query_var></query_var>
+            <permalink_epmask>EP_PERMALINK</permalink_epmask>
+            <taxonomies>
+                <region>1</region>
+            </taxonomies>
+            <id>driver</id>
+            <__types_id>driver</__types_id>
+            <__types_title>Drivers</__types_title>
+            <hash>1faf9e6412826ae05fecb9a33669dc44</hash>
+            <checksum>1faf9e6412826ae05fecb9a33669dc44</checksum>
+        </type>
+        <type>
+            <labels>
+                <name>Fulfillments</name>
+                <singular_name>Fulfillment</singular_name>
+                <add_new>Add New</add_new>
+                <add_new_item>Add New %s</add_new_item>
+                <edit_item>Edit %s</edit_item>
+                <new_item>New %s</new_item>
+                <view_item>View %s</view_item>
+                <search_items>Search %s</search_items>
+                <not_found>No %s found</not_found>
+                <not_found_in_trash>No %s found in Trash</not_found_in_trash>
+                <parent_item_colon>Parent text</parent_item_colon>
+                <all_items>All items</all_items>
+            </labels>
+            <slug>fulfillment</slug>
+            <description></description>
+            <public>public</public>
+            <menu_position></menu_position>
+            <menu_icon></menu_icon>
+            <supports>
+                <title>1</title>
+                <revisions>1</revisions>
+                <author>1</author>
+            </supports>
+            <rewrite>
+                <enabled>1</enabled>
+                <custom>normal</custom>
+                <slug></slug>
+                <with_front>1</with_front>
+                <feeds>1</feeds>
+                <pages>1</pages>
+            </rewrite>
+            <has_archive>1</has_archive>
+            <show_in_menu>1</show_in_menu>
+            <show_in_menu_page></show_in_menu_page>
+            <show_ui>1</show_ui>
+            <publicly_queryable>1</publicly_queryable>
+            <can_export>1</can_export>
+            <show_in_nav_menus>1</show_in_nav_menus>
+            <query_var_enabled>1</query_var_enabled>
+            <query_var></query_var>
+            <permalink_epmask>EP_PERMALINK</permalink_epmask>
+            <id>fulfillment</id>
+            <__types_id>fulfillment</__types_id>
+            <__types_title>Fulfillments</__types_title>
+            <hash>b1cde6400a77c045de028ff37b47ccac</hash>
+            <checksum>b1cde6400a77c045de028ff37b47ccac</checksum>
+        </type>
+    </types>
+    <taxonomies>
+        <taxonomy>
+            <labels>
+                <name>Regions</name>
+                <singular_name>Region</singular_name>
+                <search_items>Search %s</search_items>
+                <popular_items>Popular %s</popular_items>
+                <all_items>All %s</all_items>
+                <parent_item>Parent %s</parent_item>
+                <parent_item_colon>Parent %s:</parent_item_colon>
+                <edit_item>Edit %s</edit_item>
+                <update_item>Update %s</update_item>
+                <add_new_item>Add New %s</add_new_item>
+                <new_item_name>New %s Name</new_item_name>
+                <separate_items_with_commas>Separate %s with commas</separate_items_with_commas>
+                <add_or_remove_items>Add or remove %s</add_or_remove_items>
+                <choose_from_most_used>Choose from the most used %s</choose_from_most_used>
+                <menu_name>%s</menu_name>
+            </labels>
+            <slug>region</slug>
+            <description></description>
+            <public>public</public>
+            <supports>
+                <restaurant>1</restaurant>
+                <driver>1</driver>
+            </supports>
+            <hierarchical>hierarchical</hierarchical>
+            <rewrite>
+                <enabled>1</enabled>
+                <slug></slug>
+                <with_front>1</with_front>
+                <hierarchical>1</hierarchical>
+            </rewrite>
+            <show_ui>1</show_ui>
+            <show_in_nav_menus>1</show_in_nav_menus>
+            <show_tagcloud>1</show_tagcloud>
+            <query_var_enabled>1</query_var_enabled>
+            <query_var></query_var>
+            <update_count_callback></update_count_callback>
+            <id>region</id>
+            <__types_id>region</__types_id>
+            <__types_title>Regions</__types_title>
+            <checksum>db23e4120b41dbbaac8eed48d2654712</checksum>
+        </taxonomy>
+    </taxonomies>
+</types>
