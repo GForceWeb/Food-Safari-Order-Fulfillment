@@ -16,10 +16,9 @@
  * If you're interested in introducing public-facing
  * functionality, then refer to `class-plugin-name.php`
  *
- * @TODO: Rename this class to a proper name for your plugin.
  *
  * @package FoodSafari_Fulfillment_Admin
- * @author  Your Name <email@example.com>
+ * @author  Grant Derepas <grant@g-force.net>
  */
 class FoodSafari_Fulfillment_Admin {
 
@@ -50,7 +49,6 @@ class FoodSafari_Fulfillment_Admin {
 	private function __construct() {
 
 		/*
-		 * @TODO :
 		 *
 		 * - Uncomment following lines if the admin class should only be available for super admins
 		 */
@@ -63,10 +61,9 @@ class FoodSafari_Fulfillment_Admin {
 		 *
 		 * @TODO:
 		 *
-		 * - Rename "Plugin_Name" to the name of your initial plugin class
 		 *
 		 */
-		$plugin = FoodSafari_Fulfillment_Admin::get_instance();
+		$plugin = FoodSafari_Fulfillment::get_instance();
 		$this->plugin_slug = $plugin->get_plugin_slug();
 
 		// Load admin style sheet and JavaScript.
@@ -86,7 +83,7 @@ class FoodSafari_Fulfillment_Admin {
 		 * Read more about actions and filters:
 		 * http://codex.wordpress.org/Plugin_API#Hooks.2C_Actions_and_Filters
 		 */
-		require_once dirname(__FILE__) . '../embedded-types/types.php';
+		//require_once dirname(__FILE__) . '../embedded-types/types.php';
 		/*add_action( '@TODO', array( $this, 'action_method_name' ) );
 		add_filter( '@TODO', array( $this, 'filter_method_name' ) );*/
 
@@ -102,7 +99,6 @@ class FoodSafari_Fulfillment_Admin {
 	public static function get_instance() {
 
 		/*
-		 * @TODO :
 		 *
 		 * - Uncomment following lines if the admin class should only be available for super admins
 		 */
@@ -121,9 +117,6 @@ class FoodSafari_Fulfillment_Admin {
 	/**
 	 * Register and enqueue admin-specific style sheet.
 	 *
-	 * @TODO:
-	 *
-	 * - Rename "Plugin_Name" to the name your plugin
 	 *
 	 * @since     1.0.0
 	 *
@@ -137,17 +130,13 @@ class FoodSafari_Fulfillment_Admin {
 
 		$screen = get_current_screen();
 		if ( $this->plugin_screen_hook_suffix == $screen->id ) {
-			wp_enqueue_style( $this->plugin_slug .'-admin-styles', plugins_url( 'assets/css/admin.css', __FILE__ ), array(), FoodSafari_Fulfillment_Admin::VERSION );
+			wp_enqueue_style( $this->plugin_slug .'-admin-styles', plugins_url( 'assets/css/admin.css', __FILE__ ), array(), Foodsafari_Fulfillment::VERSION );
 		}
 
 	}
 
 	/**
 	 * Register and enqueue admin-specific JavaScript.
-	 *
-	 * @TODO:
-	 *
-	 * - Rename "Plugin_Name" to the name your plugin
 	 *
 	 * @since     1.0.0
 	 *
@@ -161,7 +150,7 @@ class FoodSafari_Fulfillment_Admin {
 
 		$screen = get_current_screen();
 		if ( $this->plugin_screen_hook_suffix == $screen->id ) {
-			wp_enqueue_script( $this->plugin_slug . '-admin-script', plugins_url( 'assets/js/admin.js', __FILE__ ), array( 'jquery' ), FoodSafari_Fulfillment_Admin::VERSION );
+			wp_enqueue_script( $this->plugin_slug . '-admin-script', plugins_url( 'assets/js/admin.js', __FILE__ ), array( 'jquery' ), Foodsafari_Fulfillment::VERSION );
 		}
 
 	}
@@ -180,7 +169,6 @@ class FoodSafari_Fulfillment_Admin {
 		 *
 		 *        Administration Menus: http://codex.wordpress.org/Administration_Menus
 		 *
-		 * @TODO:
 		 *
 		 * - Change 'Page Title' to the title of your plugin admin page
 		 * - Change 'Menu Text' to the text for menu item for the plugin settings page
@@ -245,7 +233,7 @@ class FoodSafari_Fulfillment_Admin {
 	 * @since    1.0.0
 	 */
 	public function filter_method_name() {
-		// @TODO: Define your filter hook callback here
+		// Define your filter hook callback here
 	}
 
 }

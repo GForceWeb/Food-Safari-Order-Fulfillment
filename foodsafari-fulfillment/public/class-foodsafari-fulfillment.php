@@ -16,7 +16,6 @@
  * If you're interested in introducing administrative or dashboard
  * functionality, then refer to `class-plugin-name-admin.php`
  *
- * @TODO: Rename this class to a proper name for your plugin.
  *
  * @package FoodSafari_Fulfillment
  * @author  Grant Derepas <grant@g-force.net>
@@ -33,7 +32,6 @@ class FoodSafari_Fulfillment {
 	const VERSION = '1.0.0';
 
 	/**
-	 * @TODO - Rename "plugin-name" to the name of your plugin
 	 *
 	 * Unique identifier for your plugin.
 	 *
@@ -235,7 +233,7 @@ class FoodSafari_Fulfillment {
 	 * @since    1.0.0
 	 */
 	private static function single_activate() {
-		// @TODO: Define activation functionality here
+		// Define activation functionality here
 	}
 
 	/**
@@ -244,7 +242,7 @@ class FoodSafari_Fulfillment {
 	 * @since    1.0.0
 	 */
 	private static function single_deactivate() {
-		// @TODO: Define deactivation functionality here
+		// Define deactivation functionality here
 	}
 
 	/**
@@ -290,7 +288,7 @@ class FoodSafari_Fulfillment {
 	 * @since    1.0.0
 	 */
 	public function action_method_name() {
-		// @TODO: Define your action hook callback here
+		//  Define your action hook callback here
 	}
 
 	/**
@@ -303,7 +301,7 @@ class FoodSafari_Fulfillment {
 	 * @since    1.0.0
 	 */
 	public function filter_method_name() {
-		// @TODO: Define your filter hook callback here
+		//  Define your filter hook callback here
 	}
 
 }

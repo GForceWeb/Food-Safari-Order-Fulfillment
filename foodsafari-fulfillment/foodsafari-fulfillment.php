@@ -5,7 +5,7 @@
  * A foundation off of which to build well-documented WordPress plugins that
  * also follow WordPress Coding Standards and PHP best practices.
  *
- * @package   Plugin_Name
+ * @package   Foodsafari_Fulfillment
  * @author    Grant Derepas <grant@g-force.net
  * @license   GPL-2.0+
  * @link      http://g-force.net
@@ -13,12 +13,12 @@
  *
  * @wordpress-plugin
  * Plugin Name:       Food Safari Order Fulfillment
- * Plugin URI:        @TODO
+ * Plugin URI:        http://g-force.net/plugins/foodsafari-fulfillment/
  * Description:       Order Fulfillment plugin for the Food Safari Network
  * Version:           1.0.0
  * Author:            Grant Derepas
  * Author URI:        http://g-force.net
- * Text Domain:       foodsafari-locale
+ * Text Domain:       foodsafari-fulfillment
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Domain Path:       /languages
@@ -35,32 +35,13 @@ if ( ! defined( 'WPINC' ) ) {
  * Public-Facing Functionality
  *----------------------------------------------------------------------------*/
 
-/*
- * @TODO:
- *
- * - replace `class-plugin-name.php` with the name of the plugin's class file
- *
- */
 require_once( plugin_dir_path( __FILE__ ) . 'public/class-foodsafari-fulfillment.php' );
 
-/*
- * Register hooks that are fired when the plugin is activated or deactivated.
- * When the plugin is deleted, the uninstall.php file is loaded.
- *
- * @TODO:
- *
- * - replace Plugin_Name with the name of the class defined in
- *   `class-plugin-name.php`
- */
+
 register_activation_hook( __FILE__, array( 'FoodSafari_Fulfillment', 'activate' ) );
 register_deactivation_hook( __FILE__, array( 'FoodSafari_Fulfillment', 'deactivate' ) );
 
-/*
- * @TODO:
- *
- * - replace Plugin_Name with the name of the class defined in
- *   `class-plugin-name.php`
- */
+
 add_action( 'plugins_loaded', array( 'FoodSafari_Fulfillment', 'get_instance' ) );
 
 /*----------------------------------------------------------------------------*
@@ -68,11 +49,6 @@ add_action( 'plugins_loaded', array( 'FoodSafari_Fulfillment', 'get_instance' ) 
  *----------------------------------------------------------------------------*/
 
 /*
- * @TODO:
- *
- * - replace `class-plugin-name-admin.php` with the name of the plugin's admin file
- * - replace Plugin_Name_Admin with the name of the class defined in
- *   `class-plugin-name-admin.php`
  *
  * If you want to include Ajax within the dashboard, change the following
  * conditional to:
