@@ -83,7 +83,7 @@ class FoodSafari_Fulfillment_Admin {
 		 * Read more about actions and filters:
 		 * http://codex.wordpress.org/Plugin_API#Hooks.2C_Actions_and_Filters
 		 */
-		//require_once dirname(__FILE__) . '../embedded-types/types.php';
+		require_once dirname(__FILE__) . '/includes/admin-functions.php';
 		/*add_action( '@TODO', array( $this, 'action_method_name' ) );
 		add_filter( '@TODO', array( $this, 'filter_method_name' ) );*/
 
