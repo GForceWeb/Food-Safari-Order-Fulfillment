@@ -22,7 +22,7 @@
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Domain Path:       /languages
- * GitHub Plugin URI: https://github.com/<owner>/<repo>
+ * GitHub Plugin URI: https://github.com/GForceWeb/Food-Safari-Order-Fulfillment/
  * WordPress-Plugin-Boilerplate: v2.6.1
  */
 
