@@ -9,6 +9,27 @@
     </settings>
     <groups>
         <group>
+            <ID>1532</ID>
+            <post_content></post_content>
+            <post_title>Fulfillment Meta</post_title>
+            <post_excerpt></post_excerpt>
+            <post_type>wp-types-group</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wp_types_group_filters_association>any</_wp_types_group_filters_association>
+                <_wp_types_group_fields>,date-sent,</_wp_types_group_fields>
+                <_wp_types_group_post_types>,fulfillment,</_wp_types_group_post_types>
+                <_wp_types_group_terms>all</_wp_types_group_terms>
+                <_wp_types_group_admin_styles></_wp_types_group_admin_styles>
+                <_wp_types_group_templates>all</_wp_types_group_templates>
+                <_wpcf_conditional_display>a:2:{s:8:&quot;relation&quot;;s:3:&quot;AND&quot;;s:6:&quot;custom&quot;;s:0:&quot;&quot;;}</_wpcf_conditional_display>
+            </meta>
+            <hash>e354e7ba5781c75925321cf1546bd5b0</hash>
+            <checksum>e354e7ba5781c75925321cf1546bd5b0</checksum>
+            <__types_id>fulfillment-meta</__types_id>
+            <__types_title>Fulfillment Meta</__types_title>
+        </group>
+        <group>
             <ID>1531</ID>
             <post_content></post_content>
             <post_title>Restaurant-Booking</post_title>
@@ -38,15 +59,15 @@
             <post_status>publish</post_status>
             <meta>
                 <_wp_types_group_filters_association>any</_wp_types_group_filters_association>
-                <_wp_types_group_fields>,booking-reference,tour,booking-region,num-courses,tour-date,tour-price,customer-name,customer-email,customer-phone,special-requirements,hotel-name,hotel-area,open-to-join,hotel-booking-name,</_wp_types_group_fields>
+                <_wp_types_group_fields>,booking-reference,tour,booking-region,num-courses,tour-date,tour-price,customer-name,customer-email,customer-phone,special-requirements,hotel-name,hotel-area,open-to-join,hotel-booking-name,number-of-guests,</_wp_types_group_fields>
                 <_wp_types_group_post_types>,fulfillment,</_wp_types_group_post_types>
                 <_wp_types_group_terms>all</_wp_types_group_terms>
                 <_wp_types_group_admin_styles></_wp_types_group_admin_styles>
                 <_wp_types_group_templates>all</_wp_types_group_templates>
                 <_wpcf_conditional_display>a:2:{s:8:&quot;relation&quot;;s:3:&quot;AND&quot;;s:6:&quot;custom&quot;;s:0:&quot;&quot;;}</_wpcf_conditional_display>
             </meta>
-            <hash>fbb7fdb14c18a8104e6105991ce5e1f7</hash>
-            <checksum>fbb7fdb14c18a8104e6105991ce5e1f7</checksum>
+            <hash>2c86c6f2b08bb307c46c8aec0b453760</hash>
+            <checksum>2c86c6f2b08bb307c46c8aec0b453760</checksum>
             <__types_id>booking-info</__types_id>
             <__types_title>Booking Info</__types_title>
         </group>
@@ -59,15 +80,15 @@
             <post_status>publish</post_status>
             <meta>
                 <_wp_types_group_filters_association>any</_wp_types_group_filters_association>
-                <_wp_types_group_fields>,driver-email,driver-phone,</_wp_types_group_fields>
-                <_wp_types_group_post_types>,driver,</_wp_types_group_post_types>
+                <_wp_types_group_fields>,transport-email,transport-phone,</_wp_types_group_fields>
+                <_wp_types_group_post_types>,transport,</_wp_types_group_post_types>
                 <_wp_types_group_terms>all</_wp_types_group_terms>
                 <_wp_types_group_admin_styles></_wp_types_group_admin_styles>
                 <_wp_types_group_templates>all</_wp_types_group_templates>
                 <_wpcf_conditional_display>a:2:{s:8:&quot;relation&quot;;s:3:&quot;AND&quot;;s:6:&quot;custom&quot;;s:0:&quot;&quot;;}</_wpcf_conditional_display>
             </meta>
-            <hash>d36a280a9f22d2f8ded5d6d0bc929eba</hash>
-            <checksum>d36a280a9f22d2f8ded5d6d0bc929eba</checksum>
+            <hash>a64c08e9d47f67bd88b2cf347c1d04a7</hash>
+            <checksum>a64c08e9d47f67bd88b2cf347c1d04a7</checksum>
             <__types_id>drivers-info</__types_id>
             <__types_title>Drivers Info</__types_title>
         </group>
@@ -80,61 +101,59 @@
             <post_status>publish</post_status>
             <meta>
                 <_wp_types_group_filters_association>any</_wp_types_group_filters_association>
-                <_wp_types_group_fields>,restaurant-email,restaurant-phone,</_wp_types_group_fields>
+                <_wp_types_group_fields>,restaurant-email,restaurant-phone,restaurant-address,</_wp_types_group_fields>
                 <_wp_types_group_post_types>,restaurant,</_wp_types_group_post_types>
                 <_wp_types_group_terms>all</_wp_types_group_terms>
                 <_wp_types_group_admin_styles></_wp_types_group_admin_styles>
                 <_wp_types_group_templates>all</_wp_types_group_templates>
                 <_wpcf_conditional_display>a:2:{s:8:&quot;relation&quot;;s:3:&quot;AND&quot;;s:6:&quot;custom&quot;;s:0:&quot;&quot;;}</_wpcf_conditional_display>
             </meta>
-            <hash>acb91b2a078524b9bfc340a699ceedcf</hash>
-            <checksum>acb91b2a078524b9bfc340a699ceedcf</checksum>
+            <hash>319de4ab782f5a512adf87392f443789</hash>
+            <checksum>319de4ab782f5a512adf87392f443789</checksum>
             <__types_id>restaurant-info</__types_id>
             <__types_title>Restaurant Info</__types_title>
         </group>
     </groups>
     <fields>
         <field>
+            <id>restaurant-email</id>
+            <slug>restaurant-email</slug>
+            <type>email</type>
+            <name>Restaurant Email</name>
             <description></description>
             <data>
-                <repetitive>0</repetitive>
                 <conditional_display>
                     <relation>AND</relation>
                     <custom></custom>
                 </conditional_display>
                 <disabled_by_type>0</disabled_by_type>
             </data>
-            <id>restaurant-email</id>
-            <name>Restaurant Email</name>
-            <type>email</type>
-            <slug>restaurant-email</slug>
             <meta_key>wpcf-restaurant-email</meta_key>
             <meta_type>postmeta</meta_type>
             <__types_id>restaurant-email</__types_id>
             <__types_title>Restaurant Email</__types_title>
-            <hash>25cbddb778d9be269234ccf2d86df677</hash>
-            <checksum>25cbddb778d9be269234ccf2d86df677</checksum>
+            <hash>aca1d04b3c4d2cbc0c35e2f81698955c</hash>
+            <checksum>aca1d04b3c4d2cbc0c35e2f81698955c</checksum>
         </field>
         <field>
+            <id>restaurant-phone</id>
+            <slug>restaurant-phone</slug>
+            <type>phone</type>
+            <name>Restaurant Phone</name>
             <description></description>
             <data>
-                <repetitive>0</repetitive>
                 <conditional_display>
                     <relation>AND</relation>
                     <custom></custom>
                 </conditional_display>
                 <disabled_by_type>0</disabled_by_type>
             </data>
-            <id>restaurant-phone</id>
-            <name>Restaurant Phone</name>
-            <type>phone</type>
-            <slug>restaurant-phone</slug>
             <meta_key>wpcf-restaurant-phone</meta_key>
             <meta_type>postmeta</meta_type>
             <__types_id>restaurant-phone</__types_id>
             <__types_title>Restaurant Phone</__types_title>
-            <hash>52c3c49884ae25335499299351700071</hash>
-            <checksum>52c3c49884ae25335499299351700071</checksum>
+            <hash>7c1cd1fd6cb8082e7ad4b19edbcd3ef1</hash>
+            <checksum>7c1cd1fd6cb8082e7ad4b19edbcd3ef1</checksum>
         </field>
         <field>
             <description></description>
@@ -211,27 +230,27 @@
                 <options>
                     <wpcf-fields-select-option-3ba22e46947d531b4a0ef57cb3552052-1>
                         <title>Bali: Seminyak: 4 Courses Food Safari</title>
-                        <value>Seminyak-4</value>
+                        <value>Bali: Seminyak: 4 Courses Food Safari</value>
                     </wpcf-fields-select-option-3ba22e46947d531b4a0ef57cb3552052-1>
                     <wpcf-fields-select-option-78e4b2dd9ad6eae5514e72dac5793032-1>
                         <title>Bali: Seminyak: 3 Courses Food Safari</title>
-                        <value>Seminyak-3</value>
+                        <value>Bali: Seminyak: 3 Courses Food Safari</value>
                     </wpcf-fields-select-option-78e4b2dd9ad6eae5514e72dac5793032-1>
                     <wpcf-fields-select-option-9979566efc8f0009844a5d957e08e78e-1>
                         <title>Bali: Ubud: 4 Courses Food Safari</title>
-                        <value>Ubud-4</value>
+                        <value>Bali: Ubud: 4 Courses Food Safari</value>
                     </wpcf-fields-select-option-9979566efc8f0009844a5d957e08e78e-1>
                     <wpcf-fields-select-option-39741952d953c6f8af067cf694bf30ec-1>
                         <title>Bali: Ubud: 3 Courses Food Safari</title>
-                        <value>Ubud-3</value>
+                        <value>Bali: Ubud: 3 Courses Food Safari</value>
                     </wpcf-fields-select-option-39741952d953c6f8af067cf694bf30ec-1>
                     <wpcf-fields-select-option-239953a0766c71c1776c5b49493bc9b9-1>
                         <title>Bali: Jimbaran: 4 Courses Food Safari</title>
-                        <value>Jimbaran-4</value>
+                        <value>Bali: Jimbaran: 4 Courses Food Safari</value>
                     </wpcf-fields-select-option-239953a0766c71c1776c5b49493bc9b9-1>
                     <wpcf-fields-select-option-c6c8bf0c4963a28b11881272a4357255-1>
                         <title>Bali: Jimbaran: 3 Courses Food Safari</title>
-                        <value>Jimbaran-3</value>
+                        <value>Bali: Jimbaran: 3 Courses Food Safari</value>
                     </wpcf-fields-select-option-c6c8bf0c4963a28b11881272a4357255-1>
                 </options>
                 <conditional_display>
@@ -244,8 +263,8 @@
             <meta_type>postmeta</meta_type>
             <__types_id>tour</__types_id>
             <__types_title>Tour</__types_title>
-            <hash>973da7bd22bb4b18e1ae8b381ae81b4e</hash>
-            <checksum>973da7bd22bb4b18e1ae8b381ae81b4e</checksum>
+            <hash>942643c837032c68f7ae51b93975fef9</hash>
+            <checksum>942643c837032c68f7ae51b93975fef9</checksum>
         </field>
         <field>
             <id>tour-date</id>
@@ -565,6 +584,117 @@
             <hash>00fa366a89d4e6bd42f4491e988b3aec</hash>
             <checksum>00fa366a89d4e6bd42f4491e988b3aec</checksum>
         </field>
+        <field>
+            <id>restaurant-address</id>
+            <slug>restaurant-address</slug>
+            <type>textfield</type>
+            <name>Restaurant Address</name>
+            <description></description>
+            <data>
+                <repetitive>0</repetitive>
+                <is_new>1</is_new>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-restaurant-address</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>restaurant-address</__types_id>
+            <__types_title>Restaurant Address</__types_title>
+            <hash>5abd0f36b2eaa46cac07945037e4f87b</hash>
+            <checksum>5abd0f36b2eaa46cac07945037e4f87b</checksum>
+        </field>
+        <field>
+            <id>transport-email</id>
+            <slug>transport-email</slug>
+            <type>email</type>
+            <name>Transport Email</name>
+            <description></description>
+            <data>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-transport-email</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>transport-email</__types_id>
+            <__types_title>Transport Email</__types_title>
+            <hash>29edcafdd7a9dd8f5cccedbea3033051</hash>
+            <checksum>29edcafdd7a9dd8f5cccedbea3033051</checksum>
+        </field>
+        <field>
+            <id>transport-phone</id>
+            <slug>transport-phone</slug>
+            <type>phone</type>
+            <name>Transport Phone</name>
+            <description></description>
+            <data>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-transport-phone</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>transport-phone</__types_id>
+            <__types_title>Transport Phone</__types_title>
+            <hash>a0755db57f0dea9b0dde83d8d471cdfd</hash>
+            <checksum>a0755db57f0dea9b0dde83d8d471cdfd</checksum>
+        </field>
+        <field>
+            <id>number-of-guests</id>
+            <slug>number-of-guests</slug>
+            <type>numeric</type>
+            <name>Number of Guests</name>
+            <description></description>
+            <data>
+                <repetitive>0</repetitive>
+                <validate>
+                    <number>
+                        <active>1</active>
+                        <message>Please enter numeric data</message>
+                    </number>
+                </validate>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-number-of-guests</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>number-of-guests</__types_id>
+            <__types_title>Number of Guests</__types_title>
+            <hash>f4ab4b637730cc0c16ca69662c1b6ca0</hash>
+            <checksum>f4ab4b637730cc0c16ca69662c1b6ca0</checksum>
+        </field>
+        <field>
+            <id>date-sent</id>
+            <slug>date-sent</slug>
+            <type>textfield</type>
+            <name>Date Sent</name>
+            <description></description>
+            <data>
+                <repetitive>0</repetitive>
+                <is_new>1</is_new>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-date-sent</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>date-sent</__types_id>
+            <__types_title>Date Sent</__types_title>
+            <hash>c96c6d6a985f498ac33a4b7e9ac3dd88</hash>
+            <checksum>c96c6d6a985f498ac33a4b7e9ac3dd88</checksum>
+        </field>
     </fields>
     <types>
         <type>
@@ -618,57 +748,6 @@
             <__types_title>Restaurants</__types_title>
             <hash>02e5f47a89f63228a8b15b0964f193be</hash>
             <checksum>02e5f47a89f63228a8b15b0964f193be</checksum>
-        </type>
-        <type>
-            <labels>
-                <name>Drivers</name>
-                <singular_name>Driver</singular_name>
-                <add_new>Add New</add_new>
-                <add_new_item>Add New %s</add_new_item>
-                <edit_item>Edit %s</edit_item>
-                <new_item>New %s</new_item>
-                <view_item>View %s</view_item>
-                <search_items>Search %s</search_items>
-                <not_found>No %s found</not_found>
-                <not_found_in_trash>No %s found in Trash</not_found_in_trash>
-                <parent_item_colon>Parent text</parent_item_colon>
-                <all_items>All items</all_items>
-            </labels>
-            <slug>driver</slug>
-            <description></description>
-            <public>public</public>
-            <menu_position></menu_position>
-            <menu_icon></menu_icon>
-            <supports>
-                <title>1</title>
-                <revisions>1</revisions>
-            </supports>
-            <rewrite>
-                <enabled>1</enabled>
-                <custom>normal</custom>
-                <slug></slug>
-                <with_front>1</with_front>
-                <feeds>1</feeds>
-                <pages>1</pages>
-            </rewrite>
-            <has_archive>1</has_archive>
-            <show_in_menu>1</show_in_menu>
-            <show_in_menu_page></show_in_menu_page>
-            <show_ui>1</show_ui>
-            <publicly_queryable>1</publicly_queryable>
-            <can_export>1</can_export>
-            <show_in_nav_menus>1</show_in_nav_menus>
-            <query_var_enabled>1</query_var_enabled>
-            <query_var></query_var>
-            <permalink_epmask>EP_PERMALINK</permalink_epmask>
-            <taxonomies>
-                <region>1</region>
-            </taxonomies>
-            <id>driver</id>
-            <__types_id>driver</__types_id>
-            <__types_title>Drivers</__types_title>
-            <hash>1faf9e6412826ae05fecb9a33669dc44</hash>
-            <checksum>1faf9e6412826ae05fecb9a33669dc44</checksum>
         </type>
         <type>
             <__types_id>fulfillment</__types_id>
@@ -784,9 +863,66 @@
             <hash>0135efcc00ef6b9d2fd50ea99a017e38</hash>
             <checksum>0135efcc00ef6b9d2fd50ea99a017e38</checksum>
         </type>
+        <type>
+            <__types_id>transport</__types_id>
+            <__types_title>Transport</__types_title>
+            <wpcf-post-type>transport</wpcf-post-type>
+            <labels>
+                <name>Transport</name>
+                <singular_name>Transports</singular_name>
+                <add_new>Add New</add_new>
+                <add_new_item>Add New %s</add_new_item>
+                <edit_item>Edit %s</edit_item>
+                <new_item>New %s</new_item>
+                <view_item>View %s</view_item>
+                <search_items>Search %s</search_items>
+                <not_found>No %s found</not_found>
+                <not_found_in_trash>No %s found in Trash</not_found_in_trash>
+                <parent_item_colon>Parent text</parent_item_colon>
+                <all_items>All items</all_items>
+            </labels>
+            <slug>transport</slug>
+            <description></description>
+            <public>public</public>
+            <menu_position></menu_position>
+            <menu_icon></menu_icon>
+            <taxonomies>
+                <region>1</region>
+            </taxonomies>
+            <supports>
+                <title>1</title>
+                <revisions>1</revisions>
+            </supports>
+            <rewrite>
+                <enabled>1</enabled>
+                <custom>normal</custom>
+                <slug></slug>
+                <with_front>1</with_front>
+                <feeds>1</feeds>
+                <pages>1</pages>
+            </rewrite>
+            <has_archive>1</has_archive>
+            <show_in_menu>1</show_in_menu>
+            <show_in_menu_page></show_in_menu_page>
+            <show_ui>1</show_ui>
+            <publicly_queryable>1</publicly_queryable>
+            <can_export>1</can_export>
+            <show_in_nav_menus>1</show_in_nav_menus>
+            <query_var_enabled>1</query_var_enabled>
+            <query_var></query_var>
+            <permalink_epmask>EP_PERMALINK</permalink_epmask>
+            <post_relationship>
+                <has>
+                    <fulfillment>1</fulfillment>
+                </has>
+            </post_relationship>
+            <id>transport</id>
+            <hash>8ec2e7c729d17818d1b0eb8909aa025d</hash>
+            <checksum>8ec2e7c729d17818d1b0eb8909aa025d</checksum>
+        </type>
     </types>
     <post_relationships>
-        <post_relationship>a:3:{s:11:&quot;fulfillment&quot;;a:1:{s:20:&quot;restaurants-to-order&quot;;a:0:{}}s:10:&quot;restaurant&quot;;a:1:{s:20:&quot;restaurants-to-order&quot;;a:0:{}}s:6:&quot;driver&quot;;a:1:{s:11:&quot;fulfillment&quot;;a:0:{}}}</post_relationship>
+        <post_relationship>a:4:{s:11:&quot;fulfillment&quot;;a:1:{s:20:&quot;restaurants-to-order&quot;;a:0:{}}s:10:&quot;restaurant&quot;;a:1:{s:20:&quot;restaurants-to-order&quot;;a:0:{}}s:6:&quot;driver&quot;;a:1:{s:11:&quot;fulfillment&quot;;a:0:{}}s:9:&quot;transport&quot;;a:1:{s:11:&quot;fulfillment&quot;;a:0:{}}}</post_relationship>
     </post_relationships>
     <taxonomies>
         <taxonomy>
@@ -812,8 +948,8 @@
             <public>public</public>
             <supports>
                 <restaurant>1</restaurant>
-                <driver>1</driver>
                 <restaurants-to-order>1</restaurants-to-order>
+                <transport>1</transport>
             </supports>
             <hierarchical>hierarchical</hierarchical>
             <rewrite>
@@ -831,7 +967,7 @@
             <id>region</id>
             <__types_id>region</__types_id>
             <__types_title>Regions</__types_title>
-            <checksum>3b9aad723e7b4311e60be980cd115768</checksum>
+            <checksum>c22d66c1e2a75aa0d789c25721fd8801</checksum>
         </taxonomy>
     </taxonomies>
 </types>
