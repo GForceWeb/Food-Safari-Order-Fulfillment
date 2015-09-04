@@ -551,7 +551,7 @@ class Foodsafari_Fulfilment_Public {
 	  }
 
 	  //Get Transport Data
-	  $driver_id = wpcf_pr_post_get_belongs($ID, 'transport');
+	  $driver_id = wpcf_pr_post_get_belongs($ID, 'host');
 	  $driver = get_post($driver_id);
 	  $dname = $driver->post_title;
 	  $demail = get_post_meta($driver_id, 'wpcf-transport-email', true);
