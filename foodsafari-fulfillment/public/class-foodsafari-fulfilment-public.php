@@ -264,7 +264,7 @@ class Foodsafari_Fulfilment_Public {
 		}
 
 		//Compare to WP Posts
-		$args = array(
+		$bookingargs = array(
 			'posts_per_page' => -1,
 		  'post_type'  => 'fulfillment',
 		  'meta_query' => array(
@@ -275,14 +275,15 @@ class Foodsafari_Fulfilment_Public {
 				),
 			),
 		);
-		$query = new WP_Query( $args );
-		$fulfilments = $query->get_posts();
+		$bookingquery = new WP_Query( $bookingargs );
+		$fulfilments = $bookingquery->get_posts();
 		$fulfilmentIDs = array();
 		foreach($fulfilments as $fulfilment){
 		  $fulfilmentIDs[] = get_post_meta( $fulfilment->ID, 'wpcf-booking-reference', true );
 		}
 
 		error_log(print_r($bookingIDs, true));
+		error_log(print_r($fulfilments, true));
 		error_log(print_r($fulfilmentIDs, true));
 		if(empty( $fulfilmentIDs ) ){
 		  $newBookings = $bookingIDs;
@@ -294,7 +295,7 @@ class Foodsafari_Fulfilment_Public {
 
 		//error_log(print_r($newBookings, true));
 		//foreach new booking create a fulfillment post
-		foreach ($newBookings as $newBooking){
+/*		foreach ($newBookings as $newBooking){
 
 		  //Find the relevant data from original rezdy API call
 		  foreach($decoded->bookings as $booking){
@@ -353,7 +354,7 @@ class Foodsafari_Fulfilment_Public {
 		  foreach($fdata as $meta_key=>$meta_value) {
 		     update_post_meta($fulfilment, $meta_key, $meta_value);
 		  }
-		}
+		}                */
 	}
 
 	public function ff_manualrezdysync() {
